@@ -3,9 +3,9 @@ This is an open-source project repo which deals with extracting data from PhoneP
 ), cleaning, transforming and loading it into MySQL database. Data visualization and exploration are done using Streamlit and Plotly charts or graphs.
 
 ## Introduction
-PhonePe, India’s leading fintech platform, launched PhonePe Pulse, India’s first interactive website with data, insights and trends on digital payments in the country. The PhonePe Pulse showcases more than 2000+ Crore transactions by consumers on an interactive map of India. 
+PhonePe, India’s leading fintech platform, launched PhonePe Pulse, India’s first interactive website with data, insights and trends on digital payments in the country. The PhonePe Pulse showcases more than 2000+ Crore transactions by consumers on an interactive map of India.   
 This project aims at Extracting, Transforming and Loading data from [source repository](https://github.com/PhonePe/pulse/tree/master
-) into MySQL and visualizing, exploring the data by creating a Streamlit application along with Plotly charts.
+) into MySQL and visualizing, exploring the data by creating a Streamlit application along with Plotly charts.   
 Note : This project works on the data timelined between **2018 and 2023**.
 
 ## Table of Contents
@@ -44,7 +44,7 @@ pip install Pillow
 
 ## Usage
 Clone the repo from the below mentioned link.  
-[PhonePe-Data-Visualization-and-Exploration](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration.git) 
+[PhonePe-Data-Visualization-and-Exploration](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration.git)    
 Install packages from "requirement.txt"  
 Run the streamlit application using `streamlit run .\PhonePe.py`  
 View the portal in your [localhost](http://localhost:8501/)    
@@ -69,7 +69,7 @@ Extract the following data as dataframe from the source directory.
 4. Load data to a CSV for reference
 
 ## Migrating to MySQL 
-Connection must to be established between python and MySQL using sqlalchemy.create_engine(for creating tables directly from dfs) and mysql.connector package(for queries).
+Connection must to be established between python and MySQL using sqlalchemy.create_engine(for creating tables directly from dfs) and mysql.connector package(for queries).   
 The tables' schema has been shown below.
 
 **Table : agg_trans**
@@ -134,10 +134,10 @@ The tables' schema has been shown below.
 | loc_registered_users | double | Count of Registered Users |
 
 ## Visualization and Exploration
-Data from these 6 tables are presented in a visually appealing form using plotly express plots, plotly choropleth charts.
-Also, streamlit's visualization functions help us understand the power of visualization by displaying these charts in a readily available format.
-Some snippets from the portal are displayed below.
-![Transaction Details](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration/blob/bf895d18262a9734e3a3cb4a0f70da77fce8ece2/Snapshots-portal/Img_3.png)
+Data from these 6 tables are presented in a visually appealing form using plotly express plots, plotly choropleth charts.   
+Also, streamlit's visualization functions help us understand the power of visualization by displaying these charts in a readily available format.   
+Some snippets from the portal are displayed below.    
+![Transaction Details](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration/blob/bf895d18262a9734e3a3cb4a0f70da77fce8ece2/Snapshots-portal/Img_3.png)    
 ![User Details](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration/blob/bf895d18262a9734e3a3cb4a0f70da77fce8ece2/Snapshots-portal/Img_5.png)
 
 ## Further Improvements 
