@@ -1086,14 +1086,15 @@ def VisualizeAggregatedTransaction(mycursor):
         key = 'agg_trans_radio_buttons'
     )
 
-    # Visualize aggregated transaction based on State, Year, Quarter, Transaction Type
-    agg_trans_sub_views = st.multiselect(
-        "Select field(s) to visualize ", 
-        ["State", "Year", "Quarter", "Transaction type"], 
-        key = 'agg_trans_multi_select' 
-    )
-
     if agg_trans_view == 'Transaction Amount':
+	    
+	# Visualize aggregated transaction based on State, Year, Quarter, Transaction Type
+        agg_trans_sub_views = st.multiselect(
+            "Select field(s) to visualize ", 
+            ["State", "Year", "Quarter", "Transaction type"], 
+            key = 'agg_trans_multi_select_1' 
+        )
+	    
         if (agg_trans_sub_views):
             if(st.button('Visualize', key = 'agg_trans_button')):
                 for sub_view in agg_trans_sub_views:
@@ -1115,6 +1116,14 @@ def VisualizeAggregatedTransaction(mycursor):
                                         config={'responsive': True})
 
     elif agg_trans_view == 'Transaction Count':
+
+	# Visualize aggregated transaction based on State, Year, Quarter, Transaction Type
+        agg_trans_sub_views = st.multiselect(
+            "Select field(s) to visualize ", 
+            ["State", "Year", "Quarter", "Transaction type"], 
+            key = 'agg_trans_multi_select_2'
+        )
+	    
         if (agg_trans_sub_views):
             if(st.button('Visualize', key = 'agg_trans_button')):
                 for sub_view in agg_trans_sub_views:
