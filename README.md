@@ -136,11 +136,13 @@ The tables' schema has been shown below.
 ## Visualization and Exploration
 Data from these 6 tables are presented in a visually appealing form using plotly express plots, plotly choropleth charts. <br>
 Also, streamlit's visualization functions help us understand the power of visualization by displaying these charts in a readily available format. <br>
-Some snippets from the portal are displayed below. <br>
-Transaction Details : <br>
+Some snippets from the portal are displayed below. <br><br>
+Transaction Details : <br><br>
 ![Transaction Details](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration/blob/bf895d18262a9734e3a3cb4a0f70da77fce8ece2/Snapshots-portal/Img_3.png) 
 <br>
-User Details :  <br> 
+<br>
+<br>
+User Details :  <br><br>
 ![User Details](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration/blob/bf895d18262a9734e3a3cb4a0f70da77fce8ece2/Snapshots-portal/Img_5.png) <br>
 
 ## Further Improvements 
