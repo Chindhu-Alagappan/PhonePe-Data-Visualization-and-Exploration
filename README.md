@@ -137,7 +137,8 @@ The tables' schema has been shown below.
 Data from these 6 tables are presented in a visually appealing form using plotly express plots, plotly choropleth charts.
 Also, streamlit's visualization functions help us understand the power of visualization by displaying these charts in a readily available format.
 Some snippets from the portal are displayed below.
-
+![Transaction Details](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration/blob/bf895d18262a9734e3a3cb4a0f70da77fce8ece2/Snapshots-portal/Img_3.png)
+![User Details](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration/blob/bf895d18262a9734e3a3cb4a0f70da77fce8ece2/Snapshots-portal/Img_5.png)
 
 ## Further Improvements 
 The project can further be enhanced by plotting 3D charts and building models to predict the transaction and user details for the upcoming quarters. This will help us to better understand and organize the fintech platform and ensure to accomodate add servers to handle forthcoming demands.
