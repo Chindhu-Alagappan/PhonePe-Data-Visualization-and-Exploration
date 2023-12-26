@@ -1,0 +1,15 @@
+# packages need to be installed to run the project
+# To install use command pip install -r requirement.txt
+
+streamlit
+pandas
+os
+json
+mysql.connector
+plotly
+SQLAlchemy
+streamlit_option_menu
+geopy
+retrying
+Pillow
+
