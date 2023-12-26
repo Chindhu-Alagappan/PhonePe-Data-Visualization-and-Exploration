@@ -44,7 +44,7 @@ pip install Pillow
 
 ## Usage
 Clone the repo from the below mentioned link.  
-[PhonePe-Data-Visualization-and-Exploration](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration.git))  
+[PhonePe-Data-Visualization-and-Exploration](https://github.com/Chindhu-Alagappan/PhonePe-Data-Visualization-and-Exploration.git) 
 Install packages from "requirement.txt"  
 Run the streamlit application using `streamlit run .\PhonePe.py`  
 View the portal in your [localhost](http://localhost:8501/)    
